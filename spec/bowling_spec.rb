@@ -46,7 +46,7 @@ describe BowlingGame do
         game.roll(1)
         16.times { game.roll(0) }
 
-        expect (game.score).to eq(26)
+        expect(game.score).to eq(26)
       end
     end
   end
