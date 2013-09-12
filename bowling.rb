@@ -75,6 +75,7 @@ class BowlingGame
   #
   # Returns nothing.
   def score_standard
-    
+    @total_score += 10 + @rolls[@current_roll + 2]
+    @current_roll += 2
   end
 end
